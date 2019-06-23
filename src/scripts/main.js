@@ -1,5 +1,3 @@
-
-
 import App from '@/components/app';
 
 import Vue from 'vue';
