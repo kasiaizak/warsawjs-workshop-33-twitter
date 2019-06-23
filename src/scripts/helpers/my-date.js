@@ -1,4 +1,8 @@
 export function myDate(value) {
-    const d = new Date(value);
-    return d.toLocaleString('pl-PL');
+    let d = null;
+    if (!value) {
+        d = new Date(value).toLocaleString('pl-PL');
+        console.log(d);
+    }
+    return d;
 }
