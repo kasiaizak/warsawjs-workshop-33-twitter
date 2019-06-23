@@ -1,7 +1,9 @@
 <template>
-    <div class="tweet">
-        To jest mój pierwszy tweet! :D
-    </div>
+    <b-card class="m-3">
+        <b-card-text>
+            To jest mój pierwszy tweet! :)
+        </b-card-text>
+    </b-card>
 </template>
 
 <script>
