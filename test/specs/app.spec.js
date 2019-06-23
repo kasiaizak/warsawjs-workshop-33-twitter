@@ -4,7 +4,7 @@ import { assert } from 'chai';
 
 import App from "@/components/app";
 import TweetList from "@/components/tweet-list";
-import nock from "nock";
+// import nock from "nock";
 
 import { mount } from '@vue/test-utils';
 
