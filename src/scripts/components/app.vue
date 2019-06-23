@@ -1,6 +1,6 @@
 <template>
     <div>
-        <TweetList></TweetList>
+        <TweetList :tweets="tweets" />
     </div>
 </template>
 
@@ -11,6 +11,15 @@ export default {
     name: "App",
     components: {
         TweetList
+    },
+    data() {
+        return {
+            tweets: [
+                {id: "sdkahkasd", body: "fahby trener!"},
+                {id: "sddeweer", body: "kolejna linika"},
+                {id: "dsdsda", body: "i jeszcze jedna"}
+            ]
+        }
     }
 }
 </script>

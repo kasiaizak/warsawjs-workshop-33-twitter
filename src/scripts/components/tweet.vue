@@ -1,14 +1,20 @@
 <template>
     <b-card class="m-3">
         <b-card-text>
-            To jest mój pierwszy tweet! :)
+            {{ tweet.body }}
         </b-card-text>
     </b-card>
 </template>
 
 <script>
 export default {
-    name: "Tweet"
+    name: "Tweet",
+    props: {
+        tweet: {
+            id: String,
+            body: String
+        }
+    }
 }
 </script>
 
