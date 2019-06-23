@@ -5,7 +5,7 @@ import { assert } from 'chai';
 import App from "@/components/app";
 import TweetList from "@/components/tweet-list";
 
-import ( mount ) from '@vue/test-utils'
+import { mount } from '@vue/test-utils';
 
 suite('App', () => {
     it.skip('should plus 2 and 2', () => { //.skip mówi MOCHA by pominąć
